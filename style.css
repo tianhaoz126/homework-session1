@@ -352,6 +352,14 @@ body#activities p {
     overflow: hidden;
     text-overflow: ellipsis;
 }
+.selectable {
+    cursor: pointer; 
+}
+
+.selectable.selected {
+    background-color: rgb(92, 214, 92);
+    color:white 
+}
 
 
 
